@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "mocha": true,       // adds all of the Mocha testing global variables.
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [ "error",2],
+        "linebreak-style": ["error","unix"],
+        "quotes": [ "error", "single"],
+        "no-unused-vars": 0,
+        "no-undef": 0,
+        "no-console": [1],
+        "semi": [ "error", "always", { "omitLastInOneLineBlock": true}]
+    }
+}
